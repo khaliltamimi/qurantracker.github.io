@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl" class="scroll-smooth">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <meta name="theme-color" content="#064E3B">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -21,30 +23,34 @@
   <!-- Arabic Typography: Cairo for UI and Amiri Quran for unclipped Tashkeel -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Cairo:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
   <!-- Lucide Icons -->
   <script>
-(function(){
-var ICONS={"x": "<path d=\"M18 6 6 18\"/><path d=\"m6 6 12 12\"/>", "smartphone": "<rect x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"/><path d=\"M12 18h.01\"/>", "layers": "<path d=\"m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z\"/><path d=\"m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65\"/><path d=\"m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65\"/>", "database": "<ellipse cx=\"12\" cy=\"5\" rx=\"9\" ry=\"3\"/><path d=\"M3 5V19A9 3 0 0 0 21 19V5\"/><path d=\"M3 12A9 3 0 0 0 21 12\"/>", "award": "<path d=\"m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526\"/><circle cx=\"12\" cy=\"8\" r=\"6\"/>", "upload": "<path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"/><polyline points=\"17 8 12 3 7 8\"/><line x1=\"12\" y1=\"3\" x2=\"12\" y2=\"15\"/>", "trending-up": "<polyline points=\"22 7 13.5 15.5 8.5 10.5 2 17\"/><polyline points=\"16 7 22 7 22 13\"/>", "trash-2": "<path d=\"M3 6h18\"/><path d=\"M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6\"/><path d=\"M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2\"/><line x1=\"10\" y1=\"11\" x2=\"10\" y2=\"17\"/><line x1=\"14\" y1=\"11\" x2=\"14\" y2=\"17\"/>", "sun": "<circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M12 2v2\"/><path d=\"M12 20v2\"/><path d=\"m4.93 4.93 1.41 1.41\"/><path d=\"m17.66 17.66 1.41 1.41\"/><path d=\"M2 12h2\"/><path d=\"M20 12h2\"/><path d=\"m6.34 17.66-1.41 1.41\"/><path d=\"m19.07 4.93-1.41 1.41\"/>", "moon": "<path d=\"M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z\"/>", "sparkle": "<path d=\"M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z\"/>", "search": "<circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/>", "refresh-cw": "<path d=\"M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8\"/><path d=\"M21 3v5h-5\"/><path d=\"M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16\"/><path d=\"M8 16H3v5\"/>", "percent": "<line x1=\"19\" y1=\"5\" x2=\"5\" y2=\"19\"/><circle cx=\"6.5\" cy=\"6.5\" r=\"2.5\"/><circle cx=\"17.5\" cy=\"17.5\" r=\"2.5\"/>", "link": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"/><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"/>", "layout-grid": "<rect x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"14\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"14\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/>", "image-down": "<path d=\"M10.3 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10l-3.1-3.1a2 2 0 0 0-2.814.014L6 21\"/><path d=\"m14 19 3 3v-5.5\"/><path d=\"m17 22 3-3\"/><circle cx=\"9\" cy=\"9\" r=\"2\"/>", "heart-handshake": "<path d=\"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z\"/><path d=\"M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66\"/><path d=\"m18 15-2-2\"/><path d=\"m15 18-2-2\"/>", "hash": "<line x1=\"4\" y1=\"9\" x2=\"20\" y2=\"9\"/><line x1=\"4\" y1=\"15\" x2=\"20\" y2=\"15\"/><line x1=\"10\" y1=\"3\" x2=\"8\" y2=\"21\"/><line x1=\"16\" y1=\"3\" x2=\"14\" y2=\"21\"/>", "grid": "<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path d=\"M3 9h18\"/><path d=\"M3 15h18\"/><path d=\"M9 3v18\"/><path d=\"M15 3v18\"/>", "file-text": "<path d=\"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z\"/><path d=\"M14 2v4a2 2 0 0 0 2 2h4\"/><path d=\"M10 9H8\"/><path d=\"M16 13H8\"/><path d=\"M16 17H8\"/>", "download": "<path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"/><polyline points=\"7 10 12 15 17 10\"/><line x1=\"12\" y1=\"15\" x2=\"12\" y2=\"3\"/>", "compass": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><polygon points=\"16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76\"/>", "check-circle-2": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"m9 12 2 2 4-4\"/>", "check": "<path d=\"M20 6 9 17l-5-5\"/>", "bookmark": "<path d=\"m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z\"/>", "book-x": "<path d=\"M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20\"/><path d=\"m14.5 7-5 5\"/><path d=\"m9.5 7 5 5\"/>", "book-open-check": "<path d=\"M12 21V7\"/><path d=\"m16 12 2 2 4-4\"/><path d=\"M22 6V4a1 1 0 0 0-1-1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4H3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6a1 1 0 0 0 1-1v-1.3\"/>", "book-open": "<path d=\"M12 7v14\"/><path d=\"M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z\"/>", "apple": "<path d=\"M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 2-1-.56-2.78-2-5-2a4.9 4.9 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z\"/><path d=\"M10 2c1 .5 2 2 2 5\"/>", "alert-triangle": "<path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3\"/><path d=\"M12 9v4\"/><path d=\"M12 17h.01\"/>"};
-window.lucide={createIcons:function(){
-  document.querySelectorAll('i[data-lucide]').forEach(function(el){
-    var n=el.getAttribute('data-lucide'),b=ICONS[n];
-    if(!b)return;
-    var s=document.createElementNS('http://www.w3.org/2000/svg','svg');
-    s.setAttribute('xmlns','http://www.w3.org/2000/svg');
-    s.setAttribute('width','24');s.setAttribute('height','24');
-    s.setAttribute('viewBox','0 0 24 24');s.setAttribute('fill','none');
-    s.setAttribute('stroke','currentColor');s.setAttribute('stroke-width','2');
-    s.setAttribute('stroke-linecap','round');s.setAttribute('stroke-linejoin','round');
-    s.setAttribute('class','lucide lucide-'+n+' '+(el.getAttribute('class')||''));
-    s.innerHTML=b;
-    if(el.id)s.id=el.id;
-    el.parentNode.replaceChild(s,el);
-  });
-}};
-})();
-</script>
+    (function () {
+      var ICONS = { "chevron-right": "<path d=\"m9 18 6-6-6-6\"/>", "chevron-left": "<path d=\"m15 18-6-6 6-6\"/>", "x": "<path d=\"M18 6 6 18\"/><path d=\"m6 6 12 12\"/>", "smartphone": "<rect x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"/><path d=\"M12 18h.01\"/>", "layers": "<path d=\"m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z\"/><path d=\"m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65\"/><path d=\"m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65\"/>", "database": "<ellipse cx=\"12\" cy=\"5\" rx=\"9\" ry=\"3\"/><path d=\"M3 5V19A9 3 0 0 0 21 19V5\"/><path d=\"M3 12A9 3 0 0 0 21 12\"/>", "award": "<path d=\"m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526\"/><circle cx=\"12\" cy=\"8\" r=\"6\"/>", "upload": "<path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"/><polyline points=\"17 8 12 3 7 8\"/><line x1=\"12\" y1=\"3\" x2=\"12\" y2=\"15\"/>", "trending-up": "<polyline points=\"22 7 13.5 15.5 8.5 10.5 2 17\"/><polyline points=\"16 7 22 7 22 13\"/>", "trash-2": "<path d=\"M3 6h18\"/><path d=\"M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6\"/><path d=\"M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2\"/><line x1=\"10\" y1=\"11\" x2=\"10\" y2=\"17\"/><line x1=\"14\" y1=\"11\" x2=\"14\" y2=\"17\"/>", "sun": "<circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M12 2v2\"/><path d=\"M12 20v2\"/><path d=\"m4.93 4.93 1.41 1.41\"/><path d=\"m17.66 17.66 1.41 1.41\"/><path d=\"M2 12h2\"/><path d=\"M20 12h2\"/><path d=\"m6.34 17.66-1.41 1.41\"/><path d=\"m19.07 4.93-1.41 1.41\"/>", "moon": "<path d=\"M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z\"/>", "sparkle": "<path d=\"M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z\"/>", "search": "<circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/>", "refresh-cw": "<path d=\"M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8\"/><path d=\"M21 3v5h-5\"/><path d=\"M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16\"/><path d=\"M8 16H3v5\"/>", "percent": "<line x1=\"19\" y1=\"5\" x2=\"5\" y2=\"19\"/><circle cx=\"6.5\" cy=\"6.5\" r=\"2.5\"/><circle cx=\"17.5\" cy=\"17.5\" r=\"2.5\"/>", "link": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"/><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"/>", "layout-grid": "<rect x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"14\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"14\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/>", "image-down": "<path d=\"M10.3 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10l-3.1-3.1a2 2 0 0 0-2.814.014L6 21\"/><path d=\"m14 19 3 3v-5.5\"/><path d=\"m17 22 3-3\"/><circle cx=\"9\" cy=\"9\" r=\"2\"/>", "heart-handshake": "<path d=\"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z\"/><path d=\"M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66\"/><path d=\"m18 15-2-2\"/><path d=\"m15 18-2-2\"/>", "hash": "<line x1=\"4\" y1=\"9\" x2=\"20\" y2=\"9\"/><line x1=\"4\" y1=\"15\" x2=\"20\" y2=\"15\"/><line x1=\"10\" y1=\"3\" x2=\"8\" y2=\"21\"/><line x1=\"16\" y1=\"3\" x2=\"14\" y2=\"21\"/>", "grid": "<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path d=\"M3 9h18\"/><path d=\"M3 15h18\"/><path d=\"M9 3v18\"/><path d=\"M15 3v18\"/>", "file-text": "<path d=\"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z\"/><path d=\"M14 2v4a2 2 0 0 0 2 2h4\"/><path d=\"M10 9H8\"/><path d=\"M16 13H8\"/><path d=\"M16 17H8\"/>", "download": "<path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"/><polyline points=\"7 10 12 15 17 10\"/><line x1=\"12\" y1=\"15\" x2=\"12\" y2=\"3\"/>", "compass": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><polygon points=\"16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76\"/>", "check-circle-2": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"m9 12 2 2 4-4\"/>", "check": "<path d=\"M20 6 9 17l-5-5\"/>", "bookmark": "<path d=\"m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z\"/>", "book-x": "<path d=\"M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20\"/><path d=\"m14.5 7-5 5\"/><path d=\"m9.5 7 5 5\"/>", "book-open-check": "<path d=\"M12 21V7\"/><path d=\"m16 12 2 2 4-4\"/><path d=\"M22 6V4a1 1 0 0 0-1-1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4H3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6a1 1 0 0 0 1-1v-1.3\"/>", "book-open": "<path d=\"M12 7v14\"/><path d=\"M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z\"/>", "apple": "<path d=\"M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 2-1-.56-2.78-2-5-2a4.9 4.9 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z\"/><path d=\"M10 2c1 .5 2 2 2 5\"/>", "alert-triangle": "<path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3\"/><path d=\"M12 9v4\"/><path d=\"M12 17h.01\"/>" };
+      window.lucide = {
+        createIcons: function () {
+          document.querySelectorAll('i[data-lucide]').forEach(function (el) {
+            var n = el.getAttribute('data-lucide'), b = ICONS[n];
+            if (!b) return;
+            var s = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+            s.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+            s.setAttribute('width', '24'); s.setAttribute('height', '24');
+            s.setAttribute('viewBox', '0 0 24 24'); s.setAttribute('fill', 'none');
+            s.setAttribute('stroke', 'currentColor'); s.setAttribute('stroke-width', '2');
+            s.setAttribute('stroke-linecap', 'round'); s.setAttribute('stroke-linejoin', 'round');
+            s.setAttribute('class', 'lucide lucide-' + n + ' ' + (el.getAttribute('class') || ''));
+            s.innerHTML = b;
+            if (el.id) s.id = el.id;
+            el.parentNode.replaceChild(s, el);
+          });
+        }
+      };
+    })();
+  </script>
 
   <!-- html2canvas for Direct Image Export -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
@@ -85,6 +91,10 @@ window.lucide={createIcons:function(){
           fontFamily: {
             sans: ['"Cairo"', 'system-ui', '-apple-system', 'sans-serif'],
             quran: ['"Amiri Quran"', 'serif'],
+          },
+          gridTemplateColumns: {
+            '15': 'repeat(15, minmax(0, 1fr))',
+            '20': 'repeat(20, minmax(0, 1fr))',
           }
         }
       }
@@ -92,8 +102,16 @@ window.lucide={createIcons:function(){
   </script>
 
   <style>
-    :root{box-sizing:border-box;padding-bottom:env(safe-area-inset-bottom,0px)}
-    header.sticky{top:0;padding-top:env(safe-area-inset-top,0px)}
+    :root {
+      box-sizing: border-box;
+      padding-bottom: env(safe-area-inset-bottom, 0px)
+    }
+
+    header.sticky {
+      top: 0;
+      padding-top: env(safe-area-inset-top, 0px)
+    }
+
     * {
       font-variant-numeric: normal;
       -webkit-font-feature-settings: "numr" 0, "onum" 0, "pnum" 0;
@@ -127,6 +145,7 @@ window.lucide={createIcons:function(){
     .page-box {
       transition: all 0.12s cubic-bezier(0.4, 0, 0.2, 1);
     }
+
     .page-box:active {
       transform: scale(0.92);
     }
@@ -135,34 +154,42 @@ window.lucide={createIcons:function(){
       width: 6px;
       height: 6px;
     }
+
     ::-webkit-scrollbar-track {
       background: rgba(0, 0, 0, 0.04);
     }
+
     ::-webkit-scrollbar-thumb {
       background: #0d542b;
       border-radius: 9999px;
     }
+
     .dark ::-webkit-scrollbar-thumb {
       background: #15803d;
     }
   </style>
 </head>
 
-<body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 min-h-screen font-sans selection:bg-emerald-600 selection:text-white antialiased transition-colors duration-200 bg-islamic-pattern pb-10">
+<body
+  class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 min-h-screen font-sans selection:bg-emerald-600 selection:text-white antialiased transition-colors duration-200 bg-islamic-pattern pb-10">
 
-  <header class="sticky top-0 z-40 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-emerald-900/10 dark:border-emerald-500/15 shadow-sm">
+  <header
+    class="sticky top-0 z-40 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-emerald-900/10 dark:border-emerald-500/15 shadow-sm">
     <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-2.5 sm:py-3 flex items-center justify-between gap-2">
-      
+
       <div class="flex items-center gap-2 sm:gap-3 min-w-0">
-        <div class="w-9 h-9 sm:w-11 sm:h-11 rounded-xl sm:rounded-2xl bg-gradient-to-br from-emerald-900 via-emerald-800 to-emerald-700 flex items-center justify-center text-gold-400 shadow-md shadow-emerald-950/20 border border-gold-500/30 shrink-0">
+        <div
+          class="w-9 h-9 sm:w-11 sm:h-11 rounded-xl sm:rounded-2xl bg-gradient-to-br from-emerald-900 via-emerald-800 to-emerald-700 flex items-center justify-center text-gold-400 shadow-md shadow-emerald-950/20 border border-gold-500/30 shrink-0">
           <i data-lucide="book-open-check" class="w-4 h-4 sm:w-6 sm:h-6 stroke-[2.2]"></i>
         </div>
         <div class="min-w-0 flex flex-col justify-center">
           <div class="flex items-center gap-1.5 flex-wrap">
-            <h1 class="text-base sm:text-lg md:text-xl font-black tracking-tight text-emerald-950 dark:text-emerald-100 whitespace-nowrap leading-none">
+            <h1
+              class="text-base sm:text-lg md:text-xl font-black tracking-tight text-emerald-950 dark:text-emerald-100 whitespace-nowrap leading-none">
               مُتابِعُ القُرآنِ
             </h1>
-            <span class="text-[10px] sm:text-[11px] font-bold px-1.5 sm:px-2 py-0.5 rounded-md bg-gold-50 dark:bg-gold-950/60 text-gold-700 dark:text-gold-300 border border-gold-300 dark:border-gold-800 leading-tight whitespace-nowrap hidden min-[440px]:inline-block font-sans">
+            <span
+              class="text-[10px] sm:text-[11px] font-bold px-1.5 sm:px-2 py-0.5 rounded-md bg-gold-50 dark:bg-gold-950/60 text-gold-700 dark:text-gold-300 border border-gold-300 dark:border-gold-800 leading-tight whitespace-nowrap hidden min-[440px]:inline-block font-sans">
               604 صفحة
             </span>
           </div>
@@ -170,21 +197,29 @@ window.lucide={createIcons:function(){
       </div>
 
       <div class="flex items-center gap-1.5 sm:gap-2 shrink-0">
-        <button id="btnInstallApp" class="flex items-center gap-1.5 px-3 py-1.5 sm:py-2 rounded-xl text-xs sm:text-sm font-bold bg-emerald-700 hover:bg-emerald-800 text-white shadow-sm shadow-emerald-900/30 transition active:scale-95" title="تثبيت التطبيق على الشاشة الرئيسية">
+        <button id="btnInstallApp"
+          class="flex items-center gap-1.5 px-3 py-1.5 sm:py-2 rounded-xl text-xs sm:text-sm font-bold bg-emerald-700 hover:bg-emerald-800 text-white shadow-sm shadow-emerald-900/30 transition active:scale-95"
+          title="تثبيت التطبيق على الشاشة الرئيسية">
           <i data-lucide="smartphone" class="w-4 h-4 shrink-0 text-gold-300"></i>
           <span>تثبيت</span>
         </button>
 
-        <button id="btnShareCard" class="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 sm:py-2 rounded-xl text-xs sm:text-sm font-semibold bg-amber-50 hover:bg-amber-100 dark:bg-gold-950/50 dark:hover:bg-gold-900 text-gold-800 dark:text-gold-300 border border-gold-300/80 dark:border-gold-800 transition shadow-sm active:scale-95" title="عرض بطاقة الإنجاز">
+        <button id="btnShareCard"
+          class="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 sm:py-2 rounded-xl text-xs sm:text-sm font-semibold bg-amber-50 hover:bg-amber-100 dark:bg-gold-950/50 dark:hover:bg-gold-900 text-gold-800 dark:text-gold-300 border border-gold-300/80 dark:border-gold-800 transition shadow-sm active:scale-95"
+          title="عرض بطاقة الإنجاز">
           <i data-lucide="award" class="w-4 h-4 text-gold-600 shrink-0"></i>
           <span class="hidden min-[480px]:inline">بطاقة الإنجاز</span>
         </button>
 
-        <button id="btnBackupModal" class="p-2 sm:p-2.5 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 border border-slate-200 dark:border-slate-800 transition active:scale-95" title="النسخ الاحتياطي ونقل البيانات">
+        <button id="btnBackupModal"
+          class="p-2 sm:p-2.5 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 border border-slate-200 dark:border-slate-800 transition active:scale-95"
+          title="النسخ الاحتياطي ونقل البيانات">
           <i data-lucide="database" class="w-4 h-4"></i>
         </button>
 
-        <button id="btnThemeToggle" class="p-2 sm:p-2.5 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 border border-slate-200 dark:border-slate-800 transition active:scale-95" title="تبديل النمط">
+        <button id="btnThemeToggle"
+          class="p-2 sm:p-2.5 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 border border-slate-200 dark:border-slate-800 transition active:scale-95"
+          title="تبديل النمط">
           <i data-lucide="moon" class="w-4 h-4 dark:hidden"></i>
           <i data-lucide="sun" class="w-4 h-4 hidden dark:inline text-gold-400"></i>
         </button>
@@ -196,30 +231,37 @@ window.lucide={createIcons:function(){
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 space-y-5">
 
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-4">
-      
-      <div class="lg:col-span-8 relative rounded-3xl bg-gradient-to-br from-emerald-950 via-emerald-900 to-emerald-850 text-white p-5 sm:p-6 shadow-xl shadow-emerald-950/20 border border-emerald-800/80">
-        
+
+      <div
+        class="lg:col-span-8 relative rounded-3xl bg-gradient-to-br from-emerald-950 via-emerald-900 to-emerald-850 text-white p-5 sm:p-6 shadow-xl shadow-emerald-950/20 border border-emerald-800/80">
+
         <div class="relative z-10 flex flex-col justify-between h-full space-y-4">
           <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div class="min-w-0 flex-1">
-              <div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-800/80 border border-emerald-700/60 text-[11px] text-gold-300 font-semibold mb-1">
+              <div
+                class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-800/80 border border-emerald-700/60 text-[11px] text-gold-300 font-semibold mb-1">
                 <i data-lucide="sparkle" class="w-3 h-3 text-gold-400"></i>
                 إجمالي إنجاز الحفظ في المصحف الشريف
               </div>
 
               <div class="pt-0.5 pb-1">
-                <h2 class="quranic-verse text-[13.5px] min-[380px]:text-[15px] sm:text-base md:text-lg font-bold text-gold-300 tracking-normal whitespace-nowrap overflow-x-auto select-none" dir="rtl">
+                <h2
+                  class="quranic-verse text-[13.5px] min-[380px]:text-[15px] sm:text-base md:text-lg font-bold text-gold-300 tracking-normal whitespace-nowrap overflow-x-auto select-none"
+                  dir="rtl">
                   ﴿&nbsp;وَلَقَدْ&nbsp;يَسَّرْنَا&nbsp;الْقُرْآنَ&nbsp;لِلذِّكْرِ&nbsp;فَهَلْ&nbsp;مِن&nbsp;مُّدَّكِرٍ&nbsp;﴾
                 </h2>
               </div>
             </div>
 
-            <div class="flex items-center gap-3 bg-emerald-900/80 backdrop-blur-md py-2 px-4 rounded-2xl border border-gold-500/30 shadow-inner shrink-0 self-start sm:self-auto">
+            <div
+              class="flex items-center gap-3 bg-emerald-900/80 backdrop-blur-md py-2 px-4 rounded-2xl border border-gold-500/30 shadow-inner shrink-0 self-start sm:self-auto">
               <div class="text-right">
-                <span id="statOverallPercent" class="text-2xl sm:text-3xl font-black font-sans text-gold-400 tracking-tight leading-none">0.0%</span>
+                <span id="statOverallPercent"
+                  class="text-2xl sm:text-3xl font-black font-sans text-gold-400 tracking-tight leading-none">0.0%</span>
                 <span class="text-[10px] block font-bold text-emerald-200 mt-0.5">نسبة الحفظ الكلية</span>
               </div>
-              <div class="w-10 h-10 rounded-xl bg-gold-500/10 flex items-center justify-center text-gold-400 border border-gold-500/20">
+              <div
+                class="w-10 h-10 rounded-xl bg-gold-500/10 flex items-center justify-center text-gold-400 border border-gold-500/20">
                 <i data-lucide="percent" class="w-5 h-5"></i>
               </div>
             </div>
@@ -233,12 +275,16 @@ window.lucide={createIcons:function(){
               </span>
               <span id="statRemainingNotice" class="text-gold-300 font-bold font-sans">باقي 604 صفحة</span>
             </div>
-            <div class="w-full h-3.5 bg-emerald-950/90 rounded-full overflow-hidden p-0.5 border border-emerald-700/40 shadow-inner">
-              <div id="statProgressBar" class="h-full bg-gradient-to-l from-gold-400 via-amber-400 to-emerald-400 rounded-full transition-all duration-500 ease-out shadow-lg" style="width: 0%"></div>
+            <div
+              class="w-full h-3.5 bg-emerald-950/90 rounded-full overflow-hidden p-0.5 border border-emerald-700/40 shadow-inner">
+              <div id="statProgressBar"
+                class="h-full bg-gradient-to-l from-gold-400 via-amber-400 to-emerald-400 rounded-full transition-all duration-500 ease-out shadow-lg"
+                style="width: 0%"></div>
             </div>
           </div>
 
-          <button id="btnMainSaveImage" class="w-full flex items-center justify-center gap-2 py-2.5 rounded-xl bg-gold-500/15 hover:bg-gold-500/25 border border-gold-500/40 text-gold-300 text-xs sm:text-sm font-bold font-sans transition active:scale-95">
+          <button id="btnMainSaveImage"
+            class="w-full flex items-center justify-center gap-2 py-2.5 rounded-xl bg-gold-500/15 hover:bg-gold-500/25 border border-gold-500/40 text-gold-300 text-xs sm:text-sm font-bold font-sans transition active:scale-95">
             <i data-lucide="image-down" class="w-4 h-4"></i>
             <span>حفظ الإنجاز كصورة</span>
           </button>
@@ -250,17 +296,20 @@ window.lucide={createIcons:function(){
               </div>
               <div>
                 <span class="text-emerald-300 text-[10px] block leading-none mb-1">الصفحات المحفوظة</span>
-                <span class="text-xs sm:text-sm font-bold text-white"><span id="statPagesMemorized">0</span> <span class="text-emerald-400/80 font-normal text-xs">/ 604</span></span>
+                <span class="text-xs sm:text-sm font-bold text-white"><span id="statPagesMemorized">0</span> <span
+                    class="text-emerald-400/80 font-normal text-xs">/ 604</span></span>
               </div>
             </div>
 
             <div class="bg-emerald-900/60 p-2.5 rounded-xl border border-emerald-800/60 flex items-center gap-2">
-              <div class="w-7 h-7 rounded-lg bg-emerald-500/20 text-emerald-300 flex items-center justify-center font-bold">
+              <div
+                class="w-7 h-7 rounded-lg bg-emerald-500/20 text-emerald-300 flex items-center justify-center font-bold">
                 <i data-lucide="bookmark" class="w-3.5 h-3.5"></i>
               </div>
               <div>
                 <span class="text-emerald-300 text-[10px] block leading-none mb-1">السور المكتملة</span>
-                <span class="text-xs sm:text-sm font-bold text-white"><span id="statSurahsMemorized">0</span> <span class="text-emerald-400/80 font-normal text-xs">/ 114</span></span>
+                <span class="text-xs sm:text-sm font-bold text-white"><span id="statSurahsMemorized">0</span> <span
+                    class="text-emerald-400/80 font-normal text-xs">/ 114</span></span>
               </div>
             </div>
 
@@ -270,7 +319,8 @@ window.lucide={createIcons:function(){
               </div>
               <div>
                 <span class="text-emerald-300 text-[10px] block leading-none mb-1">الأجزاء المكتملة</span>
-                <span class="text-xs sm:text-sm font-bold text-white"><span id="statJuzCompleted">0</span> <span class="text-emerald-400/80 font-normal text-xs">/ 30</span></span>
+                <span class="text-xs sm:text-sm font-bold text-white"><span id="statJuzCompleted">0</span> <span
+                    class="text-emerald-400/80 font-normal text-xs">/ 30</span></span>
               </div>
             </div>
 
@@ -280,7 +330,8 @@ window.lucide={createIcons:function(){
               </div>
               <div>
                 <span class="text-emerald-300 text-[10px] block leading-none mb-1">الآيات التقريبية</span>
-                <span class="text-xs sm:text-sm font-bold text-white"><span id="statAyahsMemorized">0</span> <span class="text-emerald-400/80 font-normal text-xs">/ 6,236</span></span>
+                <span class="text-xs sm:text-sm font-bold text-white"><span id="statAyahsMemorized">0</span> <span
+                    class="text-emerald-400/80 font-normal text-xs">/ 6,236</span></span>
               </div>
             </div>
           </div>
@@ -289,24 +340,32 @@ window.lucide={createIcons:function(){
       </div>
 
       <div class="lg:col-span-4 flex flex-col justify-between gap-3">
-        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-4 shadow-sm relative overflow-hidden">
+        <div
+          class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-4 shadow-sm relative overflow-hidden">
           <div class="flex items-center gap-2 text-xs font-bold text-emerald-800 dark:text-emerald-400 mb-1.5">
-            <span class="w-6 h-6 rounded-lg bg-emerald-100 dark:bg-emerald-950 flex items-center justify-center text-emerald-700 dark:text-emerald-400">
+            <span
+              class="w-6 h-6 rounded-lg bg-emerald-100 dark:bg-emerald-950 flex items-center justify-center text-emerald-700 dark:text-emerald-400">
               <i data-lucide="heart-handshake" class="w-3.5 h-3.5"></i>
             </span>
             بُشرى لحامل القرآن
           </div>
-          <p class="text-xs font-quran text-slate-700 dark:text-slate-300 leading-relaxed italic pr-2 border-r-2 border-gold-500 my-1">
-            "يُقَالُ لِصَاحِبِ الْقُرْآنِ: اقْرَأْ وَارْتَقِ وَرَتِّلْ كَمَا كُنْتَ تُرَتِّلُ فِي الدُّنْيَا، فَإِنَّ مَنْزِلَتَكَ عِنْدَ آخِرِ آيَةٍ تَقْرَؤُهَا."
+          <p
+            class="text-xs font-quran text-slate-700 dark:text-slate-300 leading-relaxed italic pr-2 border-r-2 border-gold-500 my-1">
+            "يُقَالُ لِصَاحِبِ الْقُرْآنِ: اقْرَأْ وَارْتَقِ وَرَتِّلْ كَمَا كُنْتَ تُرَتِّلُ فِي الدُّنْيَا، فَإِنَّ
+            مَنْزِلَتَكَ عِنْدَ آخِرِ آيَةٍ تَقْرَؤُهَا."
           </p>
           <div class="text-[10px] text-slate-400 text-left mt-1 font-medium font-sans">— رواه الترمذي وأبو داود</div>
         </div>
 
-        <div id="plannerCard" class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-4 shadow-sm space-y-3 font-sans"></div>
+        <div id="plannerCard"
+          class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-4 shadow-sm space-y-3 font-sans">
+        </div>
 
-        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-4 shadow-sm space-y-2.5">
+        <div
+          class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-4 shadow-sm space-y-2.5">
           <div class="flex items-center justify-center text-xs">
-            <button id="btnResetConfirm" class="flex items-center gap-1 text-rose-500 hover:text-rose-600 font-semibold hover:underline">
+            <button id="btnResetConfirm"
+              class="flex items-center gap-1 text-rose-500 hover:text-rose-600 font-semibold hover:underline">
               <i data-lucide="trash-2" class="w-3.5 h-3.5"></i>
               تصفير السجل
             </button>
@@ -317,16 +376,20 @@ window.lucide={createIcons:function(){
     </div>
 
     <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 pt-1">
-      <div class="inline-flex p-1 rounded-2xl bg-slate-200/80 dark:bg-slate-800/80 backdrop-blur-sm self-start md:self-auto border border-slate-300/40 dark:border-slate-700/50 shadow-inner font-sans">
-        <button id="tabModeSurah" class="tab-btn flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all bg-white dark:bg-slate-900 text-emerald-800 dark:text-emerald-300 shadow-sm">
+      <div
+        class="inline-flex p-1 rounded-2xl bg-slate-200/80 dark:bg-slate-800/80 backdrop-blur-sm self-start md:self-auto border border-slate-300/40 dark:border-slate-700/50 shadow-inner font-sans">
+        <button id="tabModeSurah"
+          class="tab-btn flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all bg-white dark:bg-slate-900 text-emerald-800 dark:text-emerald-300 shadow-sm">
           <i data-lucide="book-open" class="w-4 h-4"></i>
           <span>حسب السور (114)</span>
         </button>
-        <button id="tabModePage" class="tab-btn flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-all">
+        <button id="tabModePage"
+          class="tab-btn flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-all">
           <i data-lucide="layout-grid" class="w-4 h-4"></i>
           <span>شبكة الصفحات (604)</span>
         </button>
-        <button id="tabModeJuz" class="tab-btn flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-all">
+        <button id="tabModeJuz"
+          class="tab-btn flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-all">
           <i data-lucide="layers" class="w-4 h-4"></i>
           <span>الأجزاء (30 جزء)</span>
         </button>
@@ -335,11 +398,12 @@ window.lucide={createIcons:function(){
       <div class="flex flex-wrap items-center gap-2 font-sans">
         <div class="relative min-w-[200px] flex-1 sm:flex-initial">
           <i data-lucide="search" class="w-4 h-4 absolute right-3 top-1/2 -translate-y-1/2 text-slate-400"></i>
-          <input type="text" id="globalSearchInput" placeholder="ابحث باسم السورة، رقمها، الصفحة..." 
+          <input type="text" id="globalSearchInput" placeholder="ابحث باسم السورة، رقمها، الصفحة..."
             class="w-full pr-9 pl-3 py-2 rounded-xl text-xs sm:text-sm bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 focus:outline-none focus:ring-2 focus:ring-emerald-600 text-slate-800 dark:text-slate-100 placeholder-slate-400 shadow-sm transition">
         </div>
 
-        <select id="filterStatusSelect" class="py-2 px-3 rounded-xl text-xs sm:text-sm bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 focus:outline-none focus:ring-2 focus:ring-emerald-600 text-slate-800 dark:text-slate-100 shadow-sm cursor-pointer font-medium">
+        <select id="filterStatusSelect"
+          class="py-2 px-3 rounded-xl text-xs sm:text-sm bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 focus:outline-none focus:ring-2 focus:ring-emerald-600 text-slate-800 dark:text-slate-100 shadow-sm cursor-pointer font-medium">
           <option value="all">عرض الكل</option>
           <option value="memorized">المحفوظ فقط</option>
           <option value="unmemorized">غير المحفوظ</option>
@@ -349,14 +413,16 @@ window.lucide={createIcons:function(){
 
     <section id="viewSurahs" class="block space-y-3 transition-all duration-300">
       <div class="flex items-center justify-between text-xs text-slate-500 dark:text-slate-400 px-1 font-sans">
-        <span>عرض <b id="filteredSurahCount" class="text-emerald-700 dark:text-emerald-400 font-bold">114</b> سورة</span>
+        <span>عرض <b id="filteredSurahCount" class="text-emerald-700 dark:text-emerald-400 font-bold">114</b>
+          سورة</span>
         <span>اضغط على بطاقة السورة لتحديد تمام حفظها</span>
       </div>
       <div id="surahGridContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3"></div>
     </section>
 
     <section id="viewPages" class="hidden space-y-3 transition-all duration-300">
-      <div class="bg-white dark:bg-slate-900 p-3.5 sm:p-4 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-3 font-sans">
+      <div
+        class="bg-white dark:bg-slate-900 p-3.5 sm:p-4 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-3 font-sans">
         <div>
           <h3 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base flex items-center gap-2">
             <i data-lucide="grid" class="w-4 h-4 text-emerald-600"></i>
@@ -372,7 +438,8 @@ window.lucide={createIcons:function(){
             <span class="text-slate-700 dark:text-slate-300">محفوظ</span>
           </div>
           <div class="flex items-center gap-1.5">
-            <span class="w-3.5 h-3.5 rounded-md bg-slate-100 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 inline-block"></span>
+            <span
+              class="w-3.5 h-3.5 rounded-md bg-slate-100 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 inline-block"></span>
             <span class="text-slate-700 dark:text-slate-300">غير محفوظ</span>
           </div>
         </div>
@@ -380,13 +447,16 @@ window.lucide={createIcons:function(){
 
       <div class="bg-white dark:bg-slate-900 p-2.5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
         <div class="flex items-center gap-2 overflow-x-auto pb-1 text-xs">
-          <span class="text-xs font-bold text-emerald-800 dark:text-emerald-400 whitespace-nowrap px-1">انتقال للجزء:</span>
+          <span class="text-xs font-bold text-emerald-800 dark:text-emerald-400 whitespace-nowrap px-1">انتقال
+            للجزء:</span>
           <div id="juzJumpersContainer" class="flex gap-1.5 font-sans"></div>
         </div>
       </div>
 
-      <div class="bg-white dark:bg-slate-900 p-3 sm:p-5 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-sm">
-        <div id="pageGridContainer" class="grid grid-cols-6 sm:grid-cols-10 md:grid-cols-15 lg:grid-cols-20 gap-1.5 font-sans"></div>
+      <div
+        class="bg-white dark:bg-slate-900 p-3 sm:p-5 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-sm">
+        <div id="pageGridContainer"
+          class="grid grid-cols-6 sm:grid-cols-10 md:grid-cols-15 lg:grid-cols-20 gap-1.5 font-sans"></div>
       </div>
     </section>
 
@@ -396,37 +466,51 @@ window.lucide={createIcons:function(){
 
   </main>
 
-  <div id="exitConfirmModal" class="fixed inset-0 z-[60] hidden bg-slate-950/75 backdrop-blur-sm flex items-end sm:items-center justify-center p-3 sm:p-4">
-    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 w-full max-w-sm rounded-3xl shadow-2xl p-5 space-y-4 font-sans text-center">
+  <div id="exitConfirmModal"
+    class="fixed inset-0 z-[60] hidden bg-slate-950/75 backdrop-blur-sm flex items-end sm:items-center justify-center p-3 sm:p-4">
+    <div
+      class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 w-full max-w-sm rounded-3xl shadow-2xl p-5 space-y-4 font-sans text-center">
       <div class="space-y-1">
         <h3 class="font-bold text-slate-900 dark:text-white text-base">الخروج من التطبيق؟</h3>
-        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">هل تريد مغادرة الصفحة؟ بيانات حفظك محفوظة على جهازك.</p>
+        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">هل تريد مغادرة الصفحة؟ بيانات حفظك محفوظة
+          على جهازك.</p>
       </div>
       <div class="flex gap-2">
-        <button id="btnExitStay" class="flex-1 py-2.5 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white text-sm font-bold">البقاء</button>
-        <button id="btnExitLeave" class="flex-1 py-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 text-sm font-bold">خروج</button>
+        <button id="btnExitStay"
+          class="flex-1 py-2.5 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white text-sm font-bold">البقاء</button>
+        <button id="btnExitLeave"
+          class="flex-1 py-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 text-sm font-bold">خروج</button>
       </div>
     </div>
   </div>
 
-  <div id="resetConfirmModal" class="fixed inset-0 z-50 hidden bg-slate-950/75 backdrop-blur-sm flex items-end sm:items-center justify-center p-3 sm:p-4">
-    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 w-full max-w-sm rounded-3xl shadow-2xl p-5 space-y-4 font-sans text-center">
-      <div class="mx-auto w-12 h-12 rounded-2xl bg-rose-100 dark:bg-rose-950/60 text-rose-600 dark:text-rose-400 flex items-center justify-center">
+  <div id="resetConfirmModal"
+    class="fixed inset-0 z-50 hidden bg-slate-950/75 backdrop-blur-sm flex items-end sm:items-center justify-center p-3 sm:p-4">
+    <div
+      class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 w-full max-w-sm rounded-3xl shadow-2xl p-5 space-y-4 font-sans text-center">
+      <div
+        class="mx-auto w-12 h-12 rounded-2xl bg-rose-100 dark:bg-rose-950/60 text-rose-600 dark:text-rose-400 flex items-center justify-center">
         <i data-lucide="alert-triangle" class="w-6 h-6"></i>
       </div>
       <div class="space-y-1">
         <h3 class="font-bold text-slate-900 dark:text-white text-base">تأكيد تصفير السجل</h3>
-        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">سيتم حذف جميع بيانات الحفظ نهائيًا ولا يمكن التراجع عن ذلك. هل أنت متأكد؟</p>
+        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">سيتم حذف جميع بيانات الحفظ نهائيًا ولا
+          يمكن التراجع عن ذلك. هل أنت متأكد؟</p>
       </div>
       <div class="flex gap-2">
-        <button id="btnResetCancel" class="flex-1 py-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 text-sm font-bold">إلغاء</button>
-        <button id="btnResetYes" class="flex-1 py-2.5 rounded-xl bg-rose-600 hover:bg-rose-700 text-white text-sm font-bold">نعم، صفّر السجل</button>
+        <button id="btnResetCancel"
+          class="flex-1 py-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 text-sm font-bold">إلغاء</button>
+        <button id="btnResetYes"
+          class="flex-1 py-2.5 rounded-xl bg-rose-600 hover:bg-rose-700 text-white text-sm font-bold">نعم، صفّر
+          السجل</button>
       </div>
     </div>
   </div>
 
-  <div id="installAppModal" class="fixed inset-0 z-50 hidden bg-slate-950/75 backdrop-blur-sm flex items-end sm:items-center justify-center p-3 sm:p-4">
-    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 w-full max-w-md rounded-3xl shadow-2xl p-5 sm:p-6 space-y-4 font-sans">
+  <div id="installAppModal"
+    class="fixed inset-0 z-50 hidden bg-slate-950/75 backdrop-blur-sm flex items-end sm:items-center justify-center p-3 sm:p-4">
+    <div
+      class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 w-full max-w-md rounded-3xl shadow-2xl p-5 sm:p-6 space-y-4 font-sans">
       <div class="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-3">
         <div class="flex items-center gap-2.5">
           <div class="p-2 rounded-xl bg-emerald-100 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-400">
@@ -437,44 +521,55 @@ window.lucide={createIcons:function(){
             <p class="text-xs text-slate-500">ليعمل كأي تطبيق رسمي دون الحاجة للمتصفح</p>
           </div>
         </div>
-        <button id="btnCloseInstallModal" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 p-1 rounded-lg">
+        <button id="btnCloseInstallModal"
+          class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 p-1 rounded-lg">
           <i data-lucide="x" class="w-5 h-5"></i>
         </button>
       </div>
 
       <div class="space-y-3.5 text-xs text-slate-700 dark:text-slate-300 leading-relaxed">
 
-        <div class="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-800 space-y-1.5">
+        <div
+          class="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-800 space-y-1.5">
           <h4 class="font-bold text-emerald-800 dark:text-emerald-400 flex items-center gap-1.5">
             <i data-lucide="compass" class="w-4 h-4"></i>
             لهواتف أندرويد والمتصفحات الأخرى:
           </h4>
           <ol class="list-decimal pr-4 space-y-1">
-            <li>عند فتح الموقع عبر رابط ويب، اضغط على قائمة الخيارات <span class="inline-block px-1.5 py-0.5 rounded bg-white dark:bg-slate-700 border text-[11px] font-mono">⋮ الثلاث نقاط</span> بأعلى المتصفح.</li>
-            <li>اختر <b>"تثبيت التطبيق" (Install app)</b> أو <b>"إضافة إلى الشاشة الرئيسية" (Add to Home screen)</b>.</li>
+            <li>عند فتح الموقع عبر رابط ويب، اضغط على قائمة الخيارات <span
+                class="inline-block px-1.5 py-0.5 rounded bg-white dark:bg-slate-700 border text-[11px] font-mono">⋮
+                الثلاث نقاط</span> بأعلى المتصفح.</li>
+            <li>اختر <b>"تثبيت التطبيق" (Install app)</b> أو <b>"إضافة إلى الشاشة الرئيسية" (Add to Home screen)</b>.
+            </li>
           </ol>
         </div>
 
-        <div class="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-800 space-y-1.5">
+        <div
+          class="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-800 space-y-1.5">
           <h4 class="font-bold text-emerald-800 dark:text-emerald-400 flex items-center gap-1.5">
             <i data-lucide="apple" class="w-4 h-4"></i>
             لهواتف آيفون (Safari):
           </h4>
           <ol class="list-decimal pr-4 space-y-1">
-            <li>اضغط على زر <b>المشاركة</b> <span class="inline-block px-1.5 py-0.5 rounded bg-white dark:bg-slate-700 border text-[11px] font-mono">⎋ / Share</span> في شريط المتصفح.</li>
+            <li>اضغط على زر <b>المشاركة</b> <span
+                class="inline-block px-1.5 py-0.5 rounded bg-white dark:bg-slate-700 border text-[11px] font-mono">⎋ /
+                Share</span> في شريط المتصفح.</li>
             <li>اختر <b>"إضافة إلى الشاشة الرئيسية" (Add to Home Screen)</b> ثم اضغط <b>إضافة</b>.</li>
           </ol>
         </div>
       </div>
 
-      <button id="btnDismissInstallModal" class="w-full py-2.5 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold transition">
+      <button id="btnDismissInstallModal"
+        class="w-full py-2.5 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold transition">
         حسناً، فهمت ذلك
       </button>
     </div>
   </div>
 
-  <div id="backupModal" class="fixed inset-0 z-50 hidden bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
-    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 w-full max-w-md rounded-3xl shadow-2xl p-6 space-y-4 font-sans">
+  <div id="backupModal"
+    class="fixed inset-0 z-50 hidden bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
+    <div
+      class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 w-full max-w-md rounded-3xl shadow-2xl p-6 space-y-4 font-sans">
       <div class="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-3">
         <div class="flex items-center gap-2.5">
           <div class="p-2 rounded-xl bg-teal-100 dark:bg-teal-950 text-teal-700 dark:text-teal-400">
@@ -485,7 +580,8 @@ window.lucide={createIcons:function(){
             <p class="text-xs text-slate-500">حفظ ونقل بيانات حفظك بأمان</p>
           </div>
         </div>
-        <button id="btnCloseBackupModal" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 p-1 rounded-lg">
+        <button id="btnCloseBackupModal"
+          class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 p-1 rounded-lg">
           <i data-lucide="x" class="w-5 h-5"></i>
         </button>
       </div>
@@ -496,12 +592,14 @@ window.lucide={createIcons:function(){
         </p>
 
         <div class="grid grid-cols-2 gap-2">
-          <button id="btnExportJsonFile" class="flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold transition shadow-sm">
+          <button id="btnExportJsonFile"
+            class="flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold transition shadow-sm">
             <i data-lucide="download" class="w-4 h-4"></i>
             تصدير ملف النسخة
           </button>
-          
-          <label class="flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 text-xs font-bold cursor-pointer transition">
+
+          <label
+            class="flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 text-xs font-bold cursor-pointer transition">
             <i data-lucide="upload" class="w-4 h-4"></i>
             استيراد ملف
             <input type="file" id="importJsonFileInput" accept=".json" class="hidden">
@@ -510,8 +608,10 @@ window.lucide={createIcons:function(){
 
         <div class="pt-2">
           <label class="text-[11px] font-bold text-slate-400 block mb-1">بيانات الحفظ بصيغة JSON:</label>
-          <textarea id="jsonStateTextarea" readonly class="w-full h-24 p-2 text-[11px] font-mono rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 resize-none focus:outline-none"></textarea>
-          <button id="btnCopyJsonText" class="mt-2 w-full py-2 text-xs font-bold rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 transition">
+          <textarea id="jsonStateTextarea" readonly
+            class="w-full h-24 p-2 text-[11px] font-mono rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 resize-none focus:outline-none"></textarea>
+          <button id="btnCopyJsonText"
+            class="mt-2 w-full py-2 text-xs font-bold rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 transition">
             نسخ الكود إلى الحافظة
           </button>
         </div>
@@ -519,9 +619,11 @@ window.lucide={createIcons:function(){
     </div>
   </div>
 
-  <div id="achievementModal" class="fixed inset-0 z-50 hidden bg-slate-950/75 backdrop-blur-sm flex items-center justify-center p-4">
-    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 w-full max-w-lg rounded-3xl shadow-2xl p-5 sm:p-6 space-y-4">
-      
+  <div id="achievementModal"
+    class="fixed inset-0 z-50 hidden bg-slate-950/75 backdrop-blur-sm flex items-center justify-center p-4">
+    <div
+      class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 w-full max-w-lg rounded-3xl shadow-2xl p-5 sm:p-6 space-y-4">
+
       <div class="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-2.5 font-sans">
         <h3 class="font-bold text-slate-900 dark:text-white text-base flex items-center gap-2">
           <i data-lucide="award" class="w-5 h-5 text-gold-500"></i>
@@ -532,17 +634,31 @@ window.lucide={createIcons:function(){
         </button>
       </div>
 
-      <div id="printAchievementCard" class="bg-gradient-to-br from-emerald-950 via-emerald-900 to-emerald-950 text-white p-5 sm:p-6 rounded-3xl border-2 border-gold-500/50 shadow-xl space-y-3.5 relative overflow-hidden font-sans">
+      <div id="printAchievementCard"
+        class="bg-gradient-to-br from-emerald-950 via-emerald-900 to-emerald-950 text-white p-5 sm:p-6 rounded-3xl border-2 border-gold-500/50 shadow-xl space-y-3.5 relative overflow-hidden font-sans">
         <div class="text-center space-y-1.5">
           <span class="text-sm font-sans font-bold text-gold-300 block select-none">بسم الله الرحمن الرحيم</span>
-          <h2 class="text-xl sm:text-2xl font-black font-sans text-gold-400 select-none">شهادة إنجاز حفظ القرآن الكريم</h2>
+          <h2 class="text-xl sm:text-2xl font-black font-sans text-gold-400 select-none">شهادة إنجاز حفظ القرآن الكريم
+          </h2>
           <p class="text-xs text-emerald-200 font-sans font-medium select-none">وفقك الله لخدمة كتابه والعمل بما فيه</p>
           <p id="cardDateDisplay" class="text-[11px] text-gold-200/90 font-sans font-bold select-none"></p>
         </div>
 
-        <div class="bg-emerald-900/60 rounded-2xl p-4 border border-gold-500/30 text-center my-2 font-sans">
-          <div id="cardPercentDisplay" class="text-3xl sm:text-4xl font-black text-gold-400 font-sans">0.0%</div>
-          <span class="text-xs text-emerald-100 font-bold block mt-1">نسبة ما تم إنجازه من القرآن الكريم</span>
+        <div class="bg-emerald-900/60 rounded-2xl p-4 border border-gold-500/30 text-center my-2 font-sans space-y-2.5">
+          <div>
+            <div id="cardPercentDisplay" class="text-3xl sm:text-4xl font-black text-gold-400 font-sans">0.0%</div>
+            <span class="text-xs text-emerald-100 font-bold block mt-0.5">نسبة ما تم إنجازه من القرآن الكريم</span>
+          </div>
+
+          <div class="space-y-1.5 pt-1">
+            <div class="w-full h-3 bg-emerald-950/90 rounded-full overflow-hidden p-0.5 border border-emerald-700/50 shadow-inner">
+              <div id="cardProgressBar" class="h-full bg-gradient-to-l from-gold-400 via-amber-400 to-emerald-400 rounded-full transition-all duration-300 shadow-md" style="width: 0%"></div>
+            </div>
+            <div class="flex justify-between items-center text-[10px] text-emerald-200 font-medium px-1 select-none">
+              <span id="cardProgressLabel">0 من 604 صفحة</span>
+              <span id="cardRemainingNotice" class="text-gold-300 font-bold">باقي 604 صفحة</span>
+            </div>
+          </div>
         </div>
 
         <div class="grid grid-cols-3 gap-2 text-center text-xs font-sans">
@@ -560,13 +676,15 @@ window.lucide={createIcons:function(){
           </div>
         </div>
 
-        <div class="text-center text-xs font-sans font-bold text-gold-200/95 pt-2.5 border-t border-emerald-800/80 select-none">
+        <div
+          class="text-center text-xs font-sans font-bold text-gold-200/95 pt-2.5 border-t border-emerald-800/80 select-none">
           «خيركم من تعلم القرآن وعلمه»
         </div>
       </div>
 
       <div class="pt-1 font-sans">
-        <button id="btnSaveCardAsImage" class="w-full py-3 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white text-xs sm:text-sm font-bold flex items-center justify-center gap-2 shadow-md shadow-emerald-950/20 active:scale-95 transition">
+        <button id="btnSaveCardAsImage"
+          class="w-full py-3 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white text-xs sm:text-sm font-bold flex items-center justify-center gap-2 shadow-md shadow-emerald-950/20 active:scale-95 transition">
           <i data-lucide="image-down" class="w-4 h-4 text-gold-300"></i>
           <span id="btnSaveCardText">حفظ كصورة في الاستوديو</span>
         </button>
@@ -575,7 +693,8 @@ window.lucide={createIcons:function(){
     </div>
   </div>
 
-  <div id="toastNotification" class="fixed bottom-5 left-5 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none flex items-center gap-2 px-4 py-2.5 rounded-2xl shadow-xl bg-slate-900 dark:bg-white text-white dark:text-slate-900 text-xs font-bold border border-slate-700 dark:border-slate-200 font-sans">
+  <div id="toastNotification"
+    class="fixed bottom-5 left-5 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none flex items-center gap-2 px-4 py-2.5 rounded-2xl shadow-xl bg-slate-900 dark:bg-white text-white dark:text-slate-900 text-xs font-bold border border-slate-700 dark:border-slate-200 font-sans">
     <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400 dark:text-emerald-600"></i>
     <span id="toastMessage">تم الحفظ بنجاح</span>
   </div>
@@ -808,7 +927,8 @@ window.lucide={createIcons:function(){
       autoSync: true,
       currentFilter: 'all',
       searchQuery: '',
-      activeView: 'surah'
+      activeView: 'surah',
+      weekOffset: 0
     };
 
     function normAr(str) {
@@ -988,7 +1108,7 @@ window.lucide={createIcons:function(){
       try {
         const hij = now.toLocaleDateString('ar-SA-u-ca-islamic-umalqura-nu-latn', { day: 'numeric', month: 'long', year: 'numeric' });
         if (hij) text += ' • ' + hij;
-      } catch (e) {}
+      } catch (e) { }
       el.textContent = text;
     }
 
@@ -1045,6 +1165,14 @@ window.lucide={createIcons:function(){
       }
 
       document.getElementById('cardPercentDisplay').textContent = `${pagePercent}%`;
+      const cardProgressBar = document.getElementById('cardProgressBar');
+      if (cardProgressBar) cardProgressBar.style.width = `${pagePercent}%`;
+      const cardProgressLabel = document.getElementById('cardProgressLabel');
+      if (cardProgressLabel) cardProgressLabel.textContent = `${formatStdNum(memorizedPagesCount)} من 604 صفحة`;
+      const cardRemainingNotice = document.getElementById('cardRemainingNotice');
+      if (cardRemainingNotice) {
+        cardRemainingNotice.textContent = pagesLeft === 0 ? "تم الختم بحمد الله 🎉" : `باقي ${formatStdNum(pagesLeft)} صفحة`;
+      }
       document.getElementById('cardPagesDisplay').textContent = formatStdNum(memorizedPagesCount);
       document.getElementById('cardSurahsDisplay').textContent = formatStdNum(memorizedSurahsCount);
       document.getElementById('cardJuzDisplay').textContent = formatStdNum(completedAjzaCount);
@@ -1058,10 +1186,10 @@ window.lucide={createIcons:function(){
       const filter = state.currentFilter;
 
       let list = SURAHS.filter(s => {
-        const matchesQuery = !query || normAr(s.name).includes(query) || 
-                             s.id.toString() === query || 
-                             normAr(`جزء ${s.juz}`).includes(query) ||
-                             normAr(`صفحة ${s.startPage}`).includes(query);
+        const matchesQuery = !query || normAr(s.name).includes(query) ||
+          s.id.toString() === query ||
+          normAr(`جزء ${s.juz}`).includes(query) ||
+          normAr(`صفحة ${s.startPage}`).includes(query);
         const isDone = !!state.memorizedSurahs[s.id];
         let matchesFilter = true;
         if (filter === 'memorized') matchesFilter = isDone;
@@ -1085,7 +1213,7 @@ window.lucide={createIcons:function(){
       container.innerHTML = list.map(s => {
         const isDone = !!state.memorizedSurahs[s.id];
         const totalPages = (s.endPage - s.startPage + 1);
-        
+
         let pct = 0;
         let progressLabel = '';
 
@@ -1112,18 +1240,16 @@ window.lucide={createIcons:function(){
         }
 
         return `
-          <div onclick="toggleSurah(${s.id})" class="cursor-pointer group relative p-3.5 rounded-2xl border transition-all duration-200 select-none ${
-            isDone 
-              ? 'bg-emerald-50/80 dark:bg-emerald-950/40 border-emerald-400/80 dark:border-emerald-700 shadow-sm shadow-emerald-700/10' 
-              : 'bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 hover:border-emerald-300 dark:hover:border-emerald-800 shadow-sm'
+          <div onclick="toggleSurah(${s.id})" class="cursor-pointer group relative p-3.5 rounded-2xl border transition-all duration-200 select-none ${isDone
+            ? 'bg-emerald-50/80 dark:bg-emerald-950/40 border-emerald-400/80 dark:border-emerald-700 shadow-sm shadow-emerald-700/10'
+            : 'bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 hover:border-emerald-300 dark:hover:border-emerald-800 shadow-sm'
           }">
             <div class="flex items-center justify-between gap-3">
               <div class="flex items-center gap-3">
-                <div class="w-9 h-9 rounded-xl flex items-center justify-center font-bold text-xs font-sans ${
-                  isDone 
-                    ? 'bg-emerald-700 text-white shadow-md shadow-emerald-700/30' 
-                    : 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 group-hover:bg-emerald-100 dark:group-hover:bg-emerald-950 group-hover:text-emerald-800 transition'
-                }">
+                <div class="w-9 h-9 rounded-xl flex items-center justify-center font-bold text-xs font-sans ${isDone
+            ? 'bg-emerald-700 text-white shadow-md shadow-emerald-700/30'
+            : 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 group-hover:bg-emerald-100 dark:group-hover:bg-emerald-950 group-hover:text-emerald-800 transition'
+          }">
                   ${formatStdNum(s.id)}
                 </div>
                 <div>
@@ -1141,11 +1267,10 @@ window.lucide={createIcons:function(){
                 </div>
               </div>
 
-              <div class="w-6 h-6 rounded-lg flex items-center justify-center transition-all ${
-                isDone 
-                  ? 'bg-emerald-700 text-white shadow-sm shadow-emerald-900/20' 
-                  : 'border border-slate-300 dark:border-slate-700 text-transparent'
-              }">
+              <div class="w-6 h-6 rounded-lg flex items-center justify-center transition-all ${isDone
+            ? 'bg-emerald-700 text-white shadow-sm shadow-emerald-900/20'
+            : 'border border-slate-300 dark:border-slate-700 text-transparent'
+          }">
                 <i data-lucide="check" class="w-3.5 h-3.5 stroke-[3]"></i>
               </div>
             </div>
@@ -1199,11 +1324,10 @@ window.lucide={createIcons:function(){
             id="page-cell-${p}"
             onclick="togglePage(${p})" 
             title="صفحة ${formatStdNum(p)} | جزء ${formatStdNum(juz)} | سورة ${surahNames}"
-            class="page-box relative group h-10 sm:h-11 rounded-xl text-xs font-bold flex flex-col items-center justify-center transition-all shadow-sm ${opacityClass} ${
-              isDone 
-                ? 'bg-emerald-700 text-white shadow-emerald-800/30' 
-                : 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-emerald-100 hover:text-emerald-900 dark:hover:bg-emerald-950 dark:hover:text-emerald-200 border border-slate-200/90 dark:border-slate-700'
-            }">
+            class="page-box relative group h-10 sm:h-11 rounded-xl text-xs font-bold flex flex-col items-center justify-center transition-all shadow-sm ${opacityClass} ${isDone
+            ? 'bg-emerald-700 text-white shadow-emerald-800/30'
+            : 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-emerald-100 hover:text-emerald-900 dark:hover:bg-emerald-950 dark:hover:text-emerald-200 border border-slate-200/90 dark:border-slate-700'
+          }">
             <span>${formatStdNum(p)}</span>
             <span class="text-[8px] font-normal opacity-70">ج${formatStdNum(juz)}</span>
           </button>
@@ -1214,7 +1338,7 @@ window.lucide={createIcons:function(){
 
     function renderJuz() {
       const container = document.getElementById('juzCardsContainer');
-      
+
       container.innerHTML = AJZA.map(j => {
         const totalPages = (j.end - j.start + 1);
         let donePages = 0;
@@ -1225,14 +1349,12 @@ window.lucide={createIcons:function(){
         const isComplete = donePages === totalPages;
 
         return `
-          <div class="bg-white dark:bg-slate-900 border ${
-            isComplete ? 'border-emerald-500 dark:border-emerald-600 bg-emerald-50/20' : 'border-slate-200 dark:border-slate-800'
+          <div class="bg-white dark:bg-slate-900 border ${isComplete ? 'border-emerald-500 dark:border-emerald-600 bg-emerald-50/20' : 'border-slate-200 dark:border-slate-800'
           } rounded-2xl p-4 shadow-sm space-y-3 font-sans">
             <div class="flex items-center justify-between">
               <div class="flex items-center gap-2.5">
-                <span class="w-8 h-8 rounded-xl flex items-center justify-center text-xs font-bold ${
-                  isComplete ? 'bg-emerald-700 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300'
-                }">
+                <span class="w-8 h-8 rounded-xl flex items-center justify-center text-xs font-bold ${isComplete ? 'bg-emerald-700 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300'
+          }">
                   ${formatStdNum(j.juz)}
                 </span>
                 <div>
@@ -1295,13 +1417,17 @@ window.lucide={createIcons:function(){
 
       if (state.autoSync) {
         SURAHS.forEach(s => {
-          if ((s.startPage >= jObj.start && s.startPage <= jObj.end) || (s.endPage >= jObj.start && s.endPage <= jObj.end)) {
+          if (s.startPage <= jObj.end && s.endPage >= jObj.start) {
             let allDone = true;
             for (let p = s.startPage; p <= s.endPage; p++) {
               if (!state.memorizedPages[p]) { allDone = false; break; }
             }
-            if (allDone) state.memorizedSurahs[s.id] = true;
-            else delete state.memorizedSurahs[s.id];
+            if (allDone) {
+              if (!state.memorizedSurahs[s.id]) state.reviews[s.id] = todayStr();
+              state.memorizedSurahs[s.id] = true;
+            } else {
+              delete state.memorizedSurahs[s.id];
+            }
           }
         });
       }
@@ -1312,6 +1438,59 @@ window.lucide={createIcons:function(){
     }
 
     const REVIEW_DAYS = 14;
+
+    function changePlannerWeek(dir) {
+      if (dir === 0) {
+        state.weekOffset = 0;
+      } else {
+        state.weekOffset = Math.min(0, (state.weekOffset || 0) + dir);
+      }
+      renderPlanner();
+    }
+
+    function attachWeeklySwipe() {
+      const card = document.getElementById('weeklyProgressCard');
+      if (!card) return;
+
+      let startX = 0;
+      let startY = 0;
+
+      card.addEventListener('touchstart', (e) => {
+        if (e.touches.length === 1) {
+          startX = e.touches[0].clientX;
+          startY = e.touches[0].clientY;
+        }
+      }, { passive: true });
+
+      card.addEventListener('touchend', (e) => {
+        if (e.changedTouches.length === 1) {
+          const diffX = e.changedTouches[0].clientX - startX;
+          const diffY = e.changedTouches[0].clientY - startY;
+          if (Math.abs(diffX) > 35 && Math.abs(diffX) > Math.abs(diffY) * 1.3) {
+            if (diffX > 0) {
+              // In RTL, dragging right moves back in time (previous week)
+              changePlannerWeek(-1);
+            } else {
+              // Dragging left moves forward in time (next week)
+              changePlannerWeek(1);
+            }
+          }
+        }
+      }, { passive: true });
+
+      let lastWheel = 0;
+      card.addEventListener('wheel', (e) => {
+        if (Math.abs(e.deltaX) > 20 && Date.now() - lastWheel > 350) {
+          lastWheel = Date.now();
+          if (e.deltaX > 0) {
+            changePlannerWeek(-1);
+          } else {
+            changePlannerWeek(1);
+          }
+        }
+      }, { passive: true });
+    }
+
     function setGoal(v) {
       state.goal = Math.min(604, Math.max(0, parseInt(v) || 0));
       saveState();
@@ -1400,8 +1579,13 @@ window.lucide={createIcons:function(){
       } else {
         goalLine = 'حدّد هدفًا يوميًا لحساب موعد الختم المتوقع';
       }
-      const weekStart = addDays(t, -((new Date(t + 'T00:00:00').getDay() - 5 + 7) % 7));
+      const baseWeekStart = addDays(t, -((new Date(t + 'T00:00:00').getDay() - 5 + 7) % 7));
+      const baseWeekStartKey = dayKey(baseWeekStart);
+      const weekOffset = state.weekOffset || 0;
+      const weekStart = addDays(baseWeekStartKey, weekOffset * 7);
       const weekStartKey = dayKey(weekStart);
+      const weekEnd = addDays(weekStartKey, 6);
+
       let weekSum = 0;
       for (let k = 0; k < 7; k++) {
         const key = dayKey(addDays(weekStartKey, k));
@@ -1438,16 +1622,47 @@ window.lucide={createIcons:function(){
           <span class="text-[10px] ${x.isToday ? 'font-bold text-slate-800 dark:text-white' : 'text-slate-400'} truncate max-w-full">${x.label}</span>
         </div>`;
       }).join('');
+
+      let weekTitle = 'هذا الأسبوع';
+      if (weekOffset === -1) {
+        weekTitle = 'الأسبوع الماضي';
+      } else if (weekOffset < -1) {
+        weekTitle = `قبل ${formatStdNum(Math.abs(weekOffset))} أسابيع`;
+      }
+
+      const startLabel = weekStart.toLocaleDateString('ar-EG-u-nu-latn', { day: 'numeric', month: 'short' });
+      const endLabel = weekEnd.toLocaleDateString('ar-EG-u-nu-latn', { day: 'numeric', month: 'short' });
+      const rangeLabel = `${startLabel} - ${endLabel}`;
+
       const chartHtml = `
-        <div class="rounded-2xl bg-slate-50 dark:bg-slate-800/50 p-2.5 space-y-2">
-          <div class="flex items-center justify-between text-[11px]">
-            <span class="font-bold text-slate-700 dark:text-slate-200">هذا الأسبوع</span>
-            <span class="text-slate-500">المجموع <b class="text-slate-900 dark:text-white">${formatStdNum(weekSum)}</b>${goal > 0 ? ` من هدف الأسبوع <b class="${weekSum >= weekGoal ? 'text-emerald-600 dark:text-emerald-400' : 'text-slate-900 dark:text-white'}">${formatStdNum(weekGoal)}</b>` : ''}</span>
+        <div id="weeklyProgressCard" class="rounded-2xl bg-slate-50 dark:bg-slate-800/50 p-2.5 space-y-2 select-none touch-pan-y transition-colors">
+          <div class="flex items-center justify-between text-[11px] gap-1">
+            <div class="flex items-center gap-1 min-w-0">
+              <button type="button" onclick="changePlannerWeek(-1)" class="p-1 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-600 dark:text-slate-300 transition active:scale-95 shrink-0" title="الأسبوع السابق (سحب لليمين)">
+                <i data-lucide="chevron-right" class="w-4 h-4"></i>
+              </button>
+              <div class="min-w-0 flex flex-col">
+                <span class="font-bold text-slate-800 dark:text-slate-200 flex items-center gap-1 truncate leading-tight">
+                  ${weekTitle}
+                  ${weekOffset !== 0 ? `<button type="button" onclick="changePlannerWeek(0)" class="text-[9px] px-1.5 py-0.5 rounded bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 font-bold hover:underline shrink-0">الحالي</button>` : ''}
+                </span>
+                <span class="text-[9px] text-slate-400 font-sans truncate leading-tight">${rangeLabel}</span>
+              </div>
+              <button type="button" onclick="changePlannerWeek(1)" ${weekOffset >= 0 ? 'disabled' : ''} class="p-1 rounded-lg ${weekOffset >= 0 ? 'opacity-25 cursor-not-allowed text-slate-400' : 'hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-600 dark:text-slate-300 active:scale-95'} transition shrink-0" title="الأسبوع التالي (سحب لليسار)">
+                <i data-lucide="chevron-left" class="w-4 h-4"></i>
+              </button>
+            </div>
+            <div class="text-left shrink-0 text-slate-500 text-[10px]">
+              المجموع <b class="text-slate-900 dark:text-white">${formatStdNum(weekSum)}</b>${goal > 0 ? ` / <b class="${weekSum >= weekGoal ? 'text-emerald-600 dark:text-emerald-400' : 'text-slate-700 dark:text-slate-300'}">${formatStdNum(weekGoal)}</b>` : ''}
+            </div>
           </div>
           <div class="flex items-end gap-1">${bars}</div>
-          <div class="text-[10px] text-slate-400 flex flex-wrap items-center gap-x-3 gap-y-1">
-            ${goal > 0 ? '<span class="flex items-center gap-1"><span class="inline-block w-2 h-2 rounded-sm bg-emerald-600"></span> بلغتَ هدف اليوم</span>' : ''}
-            <span class="flex items-center gap-1"><span class="inline-block w-2 h-2 rounded-sm bg-amber-400"></span> تمت المراجعة</span>
+          <div class="text-[10px] text-slate-400 flex flex-wrap items-center justify-between gap-x-2 gap-y-1">
+            <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
+              ${goal > 0 ? '<span class="flex items-center gap-1"><span class="inline-block w-2 h-2 rounded-sm bg-emerald-600"></span> بلغتَ هدف اليوم</span>' : ''}
+              <span class="flex items-center gap-1"><span class="inline-block w-2 h-2 rounded-sm bg-amber-400"></span> يوم المراجعة</span>
+            </div>
+            <span class="text-[9px] text-slate-400/80 hidden sm:inline">↔ اسحب للتنقل بين الأسابيع</span>
           </div>
           <button onclick="toggleReviewDay('${t}')" class="w-full flex items-center justify-center gap-1.5 py-2 rounded-xl text-xs font-bold active:scale-95 transition ${state.reviewLog[t] ? 'bg-amber-400 text-amber-950' : 'bg-amber-50 dark:bg-amber-950/40 text-amber-800 dark:text-amber-300 border border-amber-300 dark:border-amber-800'}">
             ${state.reviewLog[t] ? 'تمت المراجعة اليوم (اضغط للإلغاء)' : 'لم تتم المراجعة اليوم'}
@@ -1481,12 +1696,12 @@ window.lucide={createIcons:function(){
           <input id="goalInput" type="number" min="0" max="604" inputmode="numeric" value="${goal || ''}" placeholder="0" onchange="setGoal(this.value)" class="w-14 px-2 py-1 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-center font-bold">
           <label for="studyDaysInput" class="text-slate-600 dark:text-slate-300">أيام الحفظ أسبوعيًا:</label>
           <select id="studyDaysInput" onchange="setStudyDays(this.value)" class="px-2 py-1 rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 font-bold">
-            ${[1,2,3,4,5,6,7].map(n => `<option value="${n}" ${n === state.studyDays ? 'selected' : ''}>${n}</option>`).join('')}
+            ${[1, 2, 3, 4, 5, 6, 7].map(n => `<option value="${n}" ${n === state.studyDays ? 'selected' : ''}>${n}</option>`).join('')}
           </select>
           <div class="w-full pt-1">
             <div class="text-slate-600 dark:text-slate-300 mb-1">أيام المراجعة:</div>
             <div class="flex flex-wrap gap-1.5">
-              ${[[5,'الجمعة'],[6,'السبت'],[0,'الأحد'],[1,'الإثنين'],[2,'الثلاثاء'],[3,'الأربعاء'],[4,'الخميس']].map(([n, name]) => `<button onclick="toggleReviewDayOption(${n})" class="px-2.5 py-1 rounded-lg text-[11px] font-bold border transition active:scale-95 ${state.reviewDays.includes(n) ? 'bg-amber-400 text-amber-950 border-amber-400' : 'bg-white dark:bg-slate-800 text-slate-500 border-slate-300 dark:border-slate-700'}">${name}</button>`).join('')}
+              ${[[5, 'الجمعة'], [6, 'السبت'], [0, 'الأحد'], [1, 'الإثنين'], [2, 'الثلاثاء'], [3, 'الأربعاء'], [4, 'الخميس']].map(([n, name]) => `<button onclick="toggleReviewDayOption(${n})" class="px-2.5 py-1 rounded-lg text-[11px] font-bold border transition active:scale-95 ${state.reviewDays.includes(n) ? 'bg-amber-400 text-amber-950 border-amber-400' : 'bg-white dark:bg-slate-800 text-slate-500 border-slate-300 dark:border-slate-700'}">${name}</button>`).join('')}
             </div>
           </div>
         </div>
@@ -1501,6 +1716,7 @@ window.lucide={createIcons:function(){
           ${rows || '<p class="text-[11px] text-slate-500">لا توجد سور متأخرة المراجعة (أكثر من ' + REVIEW_DAYS + ' يومًا).</p>'}
           ${due.length > 5 ? '<p class="text-[10px] text-slate-400 pt-1">تظهر أقدم 5 سور، وتظهر البقية بعد مراجعتها.</p>' : ''}
         </div>`;
+      attachWeeklySwipe();
       lucide.createIcons();
     }
 
@@ -1520,16 +1736,6 @@ window.lucide={createIcons:function(){
       renderJuzJumpers();
       renderAll();
       lucide.createIcons();
-
-      const localFileWarning = document.getElementById('localFileWarning');
-      const isLocalScheme = window.location.protocol.startsWith('file') || window.location.href.startsWith('content:');
-      if (localFileWarning) {
-        if (isLocalScheme) {
-          localFileWarning.classList.remove('hidden');
-        } else {
-          localFileWarning.classList.add('hidden');
-        }
-      }
 
       const installModal = document.getElementById('installAppModal');
       const btnInstall = document.getElementById('btnInstallApp');
@@ -1624,6 +1830,7 @@ window.lucide={createIcons:function(){
         state.log = {};
         state.ayahs = {};
         state.reviewLog = {};
+        state.weekOffset = 0;
         syncCount();
         saveState();
         renderAll();
@@ -1756,7 +1963,7 @@ window.lucide={createIcons:function(){
                   }
                 }
               }
-            } catch (e) {}
+            } catch (e) { }
 
             const downloadUrl = URL.createObjectURL(blob);
             const a = document.createElement('a');
@@ -1793,13 +2000,13 @@ window.lucide={createIcons:function(){
 
       const themeBtn = document.getElementById('btnThemeToggle');
       let savedTheme = null;
-      try { savedTheme = localStorage.getItem('quran_tracker_theme'); } catch (e) {}
+      try { savedTheme = localStorage.getItem('quran_tracker_theme'); } catch (e) { }
       if (savedTheme ? savedTheme === 'dark' : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
         document.documentElement.classList.add('dark');
       }
       themeBtn.addEventListener('click', () => {
         const isDark = document.documentElement.classList.toggle('dark');
-        try { localStorage.setItem('quran_tracker_theme', isDark ? 'dark' : 'light'); } catch (e) {}
+        try { localStorage.setItem('quran_tracker_theme', isDark ? 'dark' : 'light'); } catch (e) { }
       });
 
       window.addEventListener('click', (e) => {
@@ -1814,26 +2021,51 @@ window.lucide={createIcons:function(){
     // Ask for confirmation instead of leaving when the user goes back
     (function () {
       const modal = document.getElementById('exitConfirmModal');
-      let pushed = false;
-      function addGuard() {
-        try { history.pushState({ quranTrackerGuard: true }, '', location.href); pushed = true; } catch (e) { pushed = false; }
+      let isGuarded = false;
+
+      function pushGuard() {
+        if (!isGuarded) {
+          try {
+            history.pushState({ quranTrackerGuard: true }, '', location.href);
+            isGuarded = true;
+          } catch (e) {
+            isGuarded = false;
+          }
+        }
       }
-      addGuard();
+
+      pushGuard();
+
       window.addEventListener('popstate', function () {
-        if (!pushed) return;
-        modal.classList.remove('hidden');
-        addGuard();
+        if (isGuarded) {
+          isGuarded = false;
+          modal.classList.remove('hidden');
+        }
       });
+
       document.getElementById('btnExitStay').addEventListener('click', function () {
         modal.classList.add('hidden');
+        pushGuard();
       });
+
       document.getElementById('btnExitLeave').addEventListener('click', function () {
         modal.classList.add('hidden');
-        pushed = false;
-        history.go(-2);
+        isGuarded = false;
+        if (window.history.length > 1) {
+          history.back();
+        } else {
+          window.close();
+        }
       });
-      modal.addEventListener('click', function (e) { if (e.target === modal) modal.classList.add('hidden'); });
+
+      modal.addEventListener('click', function (e) {
+        if (e.target === modal) {
+          modal.classList.add('hidden');
+          pushGuard();
+        }
+      });
     })();
   </script>
 </body>
+
 </html>
